@@ -1,0 +1,29 @@
+body {
+    background-image: url('D:/web dev/Vs code/Basic Calculator/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #f8edab; 
+    padding: 30px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(228, 228, 228, 0.2);
+    border: 2px solid #000;
+}
+
+.container div {
+    margin-bottom: 0px;
+}
+
+.container input[type="number"],
+.container input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
